@@ -3,11 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+state 
 
   handleClick = () => {
     console.log('this is:', this);
   }
-  
+
   render() {
     return (
       <div className="App">
